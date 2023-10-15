@@ -41,8 +41,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     chat = update.effective_chat
     msg = update.effective_message
     keyb = []
-    keyb.append([InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"http://t.me/{context.bot.username}?startgroup=true")])
-    await msg.reply_text(f"ʜᴇʏᴀ\nɪ'ᴍ {context.bot.first_name}\nɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴀᴄᴛɪᴠᴇ ʏᴏᴜʀ ᴄʜᴀᴛ", reply_markup=InlineKeyboardMarkup(keyb))
+    keyb.append([InlineKeyboardButton(text="★ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ★", url=f"http://t.me/{context.bot.username}?startgroup=true")])
+    await msg.reply_text(f"Hᴇʏᴀ\nI'ᴍ {context.bot.first_name}\nI Cᴀɴ Hᴇʟᴘ Yᴏᴜ Tᴏ Aᴄᴛɪᴠᴇ Yᴏᴜʀ Cʜᴀᴛ", reply_markup=InlineKeyboardMarkup(keyb))
 
 
 async def log_user(update: Update, context: ContextTypes.DEFAULT_TYPE):
